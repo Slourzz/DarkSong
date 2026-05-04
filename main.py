@@ -1,11 +1,5 @@
-try:
-    import discord
-    from discord.ext import commands
-except ImportError as e:
-    raise ImportError(
-        "discord.py is not installed. Install it with: pip install -U discord.py"
-    ) from e
-
+import discord
+from discord.ext import commands
 from dotenv import load_dotenv
 from datetime import datetime
 import os
@@ -36,17 +30,16 @@ async def update(ctx, version: str, cambios: str, link: str):
 
     fecha = datetime.now().strftime("%d/%m/%y")
 
-    mensaje = (
-        f"# ACTUALIZACIÓN {version}\n\n"
-        f"## 📅 {fecha}\n\n"
-        f"## ¿QUÉ SE HA AÑADIDO?\n"
-        f"{cambios}\n\n"
-        f"## 🔗 LINK:\n"
+    await channel.send(
+        f"### :calendar: {fecha}\n"
+        f"## <:announcement:1496319843765583902> ¡Nueva Actualización disponible!\n"
+        f"|| <@&1496312737721090278> ||\n"
+        f"# ACTUALIZACIÓN {version}\n"
+        f"## <:warn:1496319582624026634> ¿QUÉ SE HA AÑADIDO?\n"
+        f"{cambios}\n"
+        f"# <:link:1496319778758066286> LINK:\n"
         f"{link}"
     )
-
-    await channel.send("🔔 **¡Nueva actualización disponible!**")
-    await channel.send(mensaje)
     await ctx.message.delete()
 
 @update.error
@@ -55,5 +48,3 @@ async def update_error(ctx, error):
         await ctx.send("❌ No tienes permisos para usar este comando.")
     elif isinstance(error, commands.MissingRequiredArgument):
         await ctx.send("❌ Uso correcto: `!update v1.0.0 \"Descripción\" https://tulink.com`")
-
-bot.run(TOKEN)
