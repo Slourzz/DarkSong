@@ -1,11 +1,5 @@
-try:
-    import discord
-    from discord.ext import commands
-except ImportError as e:
-    raise ImportError(
-        "discord.py is not installed. Install it with: pip install -U discord.py"
-    ) from e
-
+import discord
+from discord.ext import commands
 from dotenv import load_dotenv
 from datetime import datetime
 import os
