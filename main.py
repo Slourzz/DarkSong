@@ -9,8 +9,7 @@ TOKEN = os.getenv('TOKEN')
 
 UPDATE_CHANNEL_ID = 1500691578916962344
 
-intents = discord.Intents.default()
-intents.message_content = True
+intents = discord.Intents.all()
 
 bot = commands.Bot(command_prefix='!', intents=intents)
 
@@ -48,3 +47,5 @@ async def update_error(ctx, error):
         await ctx.send("❌ No tienes permisos para usar este comando.")
     elif isinstance(error, commands.MissingRequiredArgument):
         await ctx.send("❌ Uso correcto: `!update v1.0.0 \"Descripción\" https://tulink.com`")
+
+bot.run(TOKEN)
