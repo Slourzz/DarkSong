@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 import os
 import aiohttp
 import asyncio
@@ -25,6 +25,8 @@ COLORS = {
     "beta":   0xf1c40f,
     "hotfix": 0xe74c3c
 }
+
+tz_mexico = timezone(timedelta(hours=-6))
 
 def get_last_version():
     try:
@@ -61,18 +63,17 @@ async def check_github_releases():
                     if resp.status == 200:
                         data = await resp.json()
                         version = data["tag_name"]
+                        nombre = data["name"]
                         last_version = get_last_version()
 
                         if version != last_version:
                             save_last_version(version)
                             channel = bot.get_channel(UPDATE_CHANNEL_ID)
                             if channel:
-                                fecha = datetime.now().strftime("%d/%m/%y")
-                                nombre = data["name"]
+                                fecha = datetime.now(tz_mexico).strftime("%d/%m/%y")
                                 cambios = data["body"] or "Sin descripción."
                                 link_repo = data["html_url"]
 
-                                # Buscar APK en assets
                                 link_apk = link_repo
                                 for asset in data.get("assets", []):
                                     if asset["name"].endswith(".apk"):
@@ -84,7 +85,7 @@ async def check_github_releases():
                                 embed = discord.Embed(
                                     description=(
                                         f"# 🚀 NUEVA ACTUALIZACIÓN DISPONIBLE\n"
-                                        f"### DarkSong {version}\n\n"
+                                        f"### DarkSong {nombre}\n\n"
                                         f"### 📅 {fecha}\n\n"
                                         f"## ✨ Novedades\n"
                                         f"{cambios}\n\n"
@@ -112,7 +113,7 @@ async def check_github_releases():
         except Exception as e:
             print(f"Error al revisar releases: {e}")
 
-        await asyncio.sleep(300)  # Revisa cada 5 minutos
+        await asyncio.sleep(300)
 
 @bot.event
 async def on_ready():
@@ -130,7 +131,7 @@ async def update(ctx, tipo: str, version: str, version_anterior: str, cambios: s
         return
 
     color = COLORS.get(tipo.lower(), 0x3498db)
-    fecha = datetime.now().strftime("%d/%m/%y")
+    fecha = datetime.now(tz_mexico).strftime("%d/%m/%y")
 
     embed = discord.Embed(
         description=(
