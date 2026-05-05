@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.postimg.cc/wvP3vtmQ/Dark-Song.png" alt="DarkSong Logo" width="400"/>
+  <img src="https://i.postimg.cc/yYWWMCkf/Dark-Song2.png" alt="DarkSong Logo" width="400"/>
 </p>
 
 <p align="center">
