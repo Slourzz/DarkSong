@@ -62,8 +62,8 @@ AI-powered music player for Android. Supports 8D, Slowed, and Nightcore playback
 
 | Platform | Link |
 |----------|------|
-| Telegram | [Join channel](#) [https://t.me/gabrioffYT] |
-| Discord  | [Join server](#) (https://discord.gg/KCvPnTykKp) |
+| Telegram | https://t.me/gabrioffYT |
+| Discord  | https://discord.gg/KCvPnTykKp |
 
 ---
 
