@@ -2,11 +2,7 @@
   <img src="https://i.postimg.cc/wBDkDmz0/Dark-Song3.png" alt="DarkSong Logo" width="400"/>
 </p>
 
-<p align="center">
-  <a href="../../releases"><img src="https://img.shields.io/github/v/release/Gabrioff/DarkSong?color=blueviolet&label=latest%20version" alt="Latest Version"/></a>
-  <a href="../../releases"><img src="https://img.shields.io/github/downloads/Gabrioff/DarkSong/total?color=brightgreen&label=total%20downloads" alt="Total Downloads"/></a>
-  <a href="https://t.me/gabrioffYT"><img src="https://img.shields.io/badge/telegram-join-26A5E4?logo=telegram" alt="Telegram"/></a>
-  <a href="https://discord.gg/KCvPnTykKp"><img src="https://img.shields.io/badge/discord-online-5865F2?logo=discord" alt="Discord"/></a>
+
 </p>
 
 ---
