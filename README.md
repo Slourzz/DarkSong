@@ -2,7 +2,8 @@
   <img src="https://i.postimg.cc/wBDkDmz0/Dark-Song3.png" alt="DarkSong Logo" width="400"/>
 </p>
 
-
+<p align="center">
+  <a href="../../releases"><img src="https://img.shields.io/github/v/release/Slourzz/DarkSong?color=blueviolet&label=latest%20version" alt="Latest Version"/></a>
 </p>
 
 AI-powered music player for Android. Supports 8D, Slowed, and Nightcore playback modes.
@@ -16,13 +17,13 @@ AI-powered music player for Android. Supports 8D, Slowed, and Nightcore playback
 <td valign="top" width="40%">
 
 - **AI playlist creation** — Smart assistant that builds playlists for you
-  
+
 - **8D Audio** — Immersive spatial sound experience
-  
+
 - **Slowed mode** — Relaxed, dreamy playback
-  
+
 - **Nightcore mode** — High-energy sped-up tracks
-  
+
 - **Built for Android** — Smooth and optimized mobile experience
 
 </td>
