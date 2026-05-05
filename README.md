@@ -1,15 +1,9 @@
 <p align="center">
-  <img src="https://i.postimg.cc/yYWWMCkf/Dark-Song2.png" alt="DarkSong Logo" width="400"/>
+  <img src="https://i.postimg.cc/wBDkDmz0/Dark-Song3.png" alt="DarkSong Logo" width="400"/>
 </p>
 
-<p align="center">
-  <a href="../../releases"><img src="https://img.shields.io/github/v/release/Gabrioff/DarkSong?color=blueviolet&label=latest%20version" alt="Latest Version"/></a>
-  <a href="../../releases"><img src="https://img.shields.io/github/downloads/Gabrioff/DarkSong/total?color=brightgreen&label=total%20downloads" alt="Total Downloads"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/telegram-join-26A5E4?logo=telegram" alt="Telegram"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/discord-online-5865F2?logo=discord" alt="Discord"/></a>
-</p>
 
----
+</p>
 
 AI-powered music player for Android. Supports 8D, Slowed, and Nightcore playback modes.
 
@@ -19,18 +13,22 @@ AI-powered music player for Android. Supports 8D, Slowed, and Nightcore playback
 
 <table>
 <tr>
-<td valign="top" width="50%">
+<td valign="top" width="40%">
 
 - **AI playlist creation** — Smart assistant that builds playlists for you
+  
 - **8D Audio** — Immersive spatial sound experience
+  
 - **Slowed mode** — Relaxed, dreamy playback
+  
 - **Nightcore mode** — High-energy sped-up tracks
+  
 - **Built for Android** — Smooth and optimized mobile experience
 
 </td>
-<td valign="top" width="100%">
+<td valign="top" width="60%">
 
-![Screenshot](https://i.postimg.cc/nhfqHW46/Galeria-de-3-imagenes.png)
+<img src="https://i.postimg.cc/wTxbH0z6/Galeria-de-3-imagenes.png" alt="Screenshot" width="100%"/>
 
 </td>
 </tr>
@@ -41,8 +39,8 @@ AI-powered music player for Android. Supports 8D, Slowed, and Nightcore playback
 ## Links
 
 - 📲 [Installation](#installation)
-- 💙 [Telegram](#) *(replace with your link)*
-- 🟣 [Discord](#) *(replace with your link)*
+- 💙 [Telegram](https://t.me/gabrioffYT)
+- 🟣 [Discord](https://discord.gg/KCvPnTykKp)
 
 ---
 
@@ -62,9 +60,9 @@ AI-powered music player for Android. Supports 8D, Slowed, and Nightcore playback
 
 | Platform | Link |
 |----------|------|
-| Telegram | https://t.me/gabrioffYT |
-| Discord  | https://discord.gg/KCvPnTykKp |
+| 💙 Telegram | [t.me/gabrioffYT](https://t.me/gabrioffYT) |
+| 🟣 Discord  | [discord.gg/KCvPnTykKp](https://discord.gg/KCvPnTykKp) |
 
 ---
 
-<p align="center">Made with ❤️ by <a href="https://github.com/Gabrioff">@Gabrioff</a></p>
+<p align="center">Made with ❤️ by <a href="https://github.com/Gabrioff">@Gabrioff</a> & <a href="https://github.com/Slourzz">@Slourzz</a></p>
