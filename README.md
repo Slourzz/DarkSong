@@ -28,7 +28,7 @@ AI-powered music player for Android. Supports 8D, Slowed, and Nightcore playback
 - 📱 **Built for Android** — Smooth and optimized mobile experience
 
 </td>
-<td valign="top" width="50%">
+<td valign="top" width="70%">
 
 ![Screenshot](https://i.postimg.cc/nhfqHW46/Galeria-de-3-imagenes.png)
 
