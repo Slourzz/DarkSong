@@ -5,8 +5,6 @@
 
 </p>
 
----
-
 AI-powered music player for Android. Supports 8D, Slowed, and Nightcore playback modes.
 
 ---
