@@ -17,13 +17,9 @@ AI-powered music player for Android. Supports 8D, Slowed, and Nightcore playback
 <td valign="top" width="40%">
 
 - **AI playlist creation** — Smart assistant that builds playlists for you
-
 - **8D Audio** — Immersive spatial sound experience
-
 - **Slowed mode** — Relaxed, dreamy playback
-
 - **Nightcore mode** — High-energy sped-up tracks
-
 - **Built for Android** — Smooth and optimized mobile experience
 
 </td>
